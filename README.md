@@ -2,11 +2,10 @@
 
 ## Table of Contents
 1. [Project Description](#Project-Description)
-2. [Features](#features)
+2. [Installation](#installation)
 3. [API Documentation](#api-documentation)
-4. [Deployment](#deployment)
-5. [Backlinks](#Backlinks)
-6. [Technologies Used](#technologies-used)
+4. [Backlinks](#Backlinks)
+
    
 
 ## Project Description
@@ -70,12 +69,17 @@ The app is deployed at https://public-api-lvu5.onrender.com/api/hng12
 ### Backlinks
 
 Backlinks to:
-       ▪︎ https://hng.tech/hire/python-developers
-       ▪︎ https://hng.tech/hire/csharp-developers
-       ▪︎ https://hng.tech/hire/golang-developers
-       ▪︎ https://hng.tech/hire/php-developers
-       ▪︎ https://hng.tech/hire/java-developers
-       ▪︎ https://hng.tech/hire/nodejs-developers
+https://hng.tech/hire/python-developers
+
+https://hng.tech/hire/csharp-developers
+
+https://hng.tech/hire/golang-developers
+
+https://hng.tech/hire/php-developers
+
+https://hng.tech/hire/java-developers
+
+https://hng.tech/hire/nodejs-developers
 
 ### Technologies Used
 - Nodejs for Backend runtime
