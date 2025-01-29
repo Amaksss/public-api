@@ -1,7 +1,7 @@
 # public-api for HNG 12 Task
 
 ## Table of Contents
-1. [Project Description](#Project Description)
+1. [Project Description](#Project-Description)
 2. [Features](#features)
 3. [API Documentation](#api-documentation)
 4. [Deployment](#deployment)
@@ -30,8 +30,8 @@ The API is built using Nodejs and Express and is deployed to a publicly accessib
 
 ### Installation
 1. Clone the repository
- git clone https://github.com/yourusername/your-repo.git
- cd your-repo
+ git clone https://github.com/Amaksss/public-api.git
+ cd public-api
 
 2. Install dependencies
    npm install
