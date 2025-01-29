@@ -11,8 +11,21 @@ const app = express();
 app.use(cors());
 //app.use(express.json());
 
+
+// Define the root route
+app.get('/', (req, res) => {
+   res.send('Welcome to the Public API!');
+});
+
 //use routes
 app.use('/api', apiRoute);
+
+// Catch-all route for undefined endpoints
+app.use((req, res) => {
+   res.status(404).json({
+      message: 'route not found',
+   })
+})
 
 //start server
 app.listen(PORT, ()=> {
