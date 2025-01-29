@@ -33,7 +33,7 @@ The API is built using Nodejs and Express and is deployed to a publicly accessib
 
 ### API Documentation
 
-## Endpoint
+## Endpoint 
 GET /api/hng12
 
 ## Response Format
@@ -49,6 +49,12 @@ If an invalid route is requested, the API returns
 {
   "error": "Route not found"
 }
+
+## Endpoint 
+GET /
+
+## Response
+A simple message welcoming users to the public API
 
 ### Deployment
 The app is deployed at
