@@ -47,9 +47,8 @@ The API is built using Nodejs and Express and is deployed to a publicly accessib
     - **Endpoint**: `/api/hng12`
     - **Method**: GET
     - **Description**: Access the api route.
-    - **Response Format**:
+    - **Response Format**: Success (200 OK)
         ```json
-        Success (200 OK)
         {
          "email": "your-email@example.com",
          "current_datetime": "2025-01-30T09:30:00Z",
