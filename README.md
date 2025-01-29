@@ -1,5 +1,14 @@
 # public-api for HNG 12 Task
 
+## Table of Contents
+1. [Project Description](#Project Description)
+2. [Features](#features)
+3. [API Documentation](#api-documentation)
+4. [Deployment](#deployment)
+5. [Backlinks](#Backlinks)
+6. [Technologies Used](#technologies-used)
+   
+
 ## Project Description
 This is a simple API that provides response in json format.The API returns
 - The registered email address used in the slack workspace
@@ -34,15 +43,19 @@ The API is built using Nodejs and Express and is deployed to a publicly accessib
 ### API Documentation
 
 ## Endpoint 
-GET /api/hng12
 
-## Response Format
-Success (200 OK)
-{
-  "email": "your-email@example.com",
-  "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
-}
+- **GET**
+    - **Endpoint**: `/api/hng12`
+    - **Method**: GET
+    - **Description**: Access the api route.
+    - **Response Format**:
+        ```json
+        {
+         "email": "your-email@example.com",
+         "current_datetime": "2025-01-30T09:30:00Z",
+         "github_url": "https://github.com/Amaksss/public-api"
+        }
+        ```
 
 ## Error Handling
 If an invalid route is requested, the API returns
@@ -50,14 +63,19 @@ If an invalid route is requested, the API returns
   "error": "Route not found"
 }
 
-## Endpoint 
-GET /
-
-## Response
-A simple message welcoming users to the public API
 
 ### Deployment
-The app is deployed at
+The app is deployed at https://public-api-lvu5.onrender.com/api/hng12
+
+### Backlinks
+
+Backlinks to:
+       ▪︎ https://hng.tech/hire/python-developers
+       ▪︎ https://hng.tech/hire/csharp-developers
+       ▪︎ https://hng.tech/hire/golang-developers
+       ▪︎ https://hng.tech/hire/php-developers
+       ▪︎ https://hng.tech/hire/java-developers
+       ▪︎ https://hng.tech/hire/nodejs-developers
 
 ### Technologies Used
 - Nodejs for Backend runtime
