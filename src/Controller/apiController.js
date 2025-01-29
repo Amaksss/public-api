@@ -1,7 +1,7 @@
 const getInfo = (req, res) => {
     try{
         res.json({
-            name: "amakaorabuchi@gmail.com",
+            email: "amakaorabuchi@gmail.com",
             current_datetime: new Date().toISOString(),
             github_url: "https://github.com/Amaksss/public-api"
         })
