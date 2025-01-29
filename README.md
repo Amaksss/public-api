@@ -49,6 +49,7 @@ The API is built using Nodejs and Express and is deployed to a publicly accessib
     - **Description**: Access the api route.
     - **Response Format**:
         ```json
+        Success (200 OK)
         {
          "email": "your-email@example.com",
          "current_datetime": "2025-01-30T09:30:00Z",
